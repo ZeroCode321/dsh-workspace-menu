@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "declaration": false,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "C:/Users/Lenovo/Desktop/deepseek使用/_wm-build-tools/node_modules/@types"
+    ],
+    "types": ["node", "react", "react-dom"],
+    "baseUrl": ".",
+    "paths": {
+      "cordis": ["C:/Users/Lenovo/.dsh/profiles/node_modules/@deepseek-ai/cordis"],
+      "react-dom/client": ["C:/Users/Lenovo/Desktop/deepseek使用/_wm-build-tools/node_modules/@types/react-dom/client.d.ts"],
+      "react/jsx-runtime": ["C:/Users/Lenovo/Desktop/deepseek使用/_wm-build-tools/node_modules/@types/react/jsx-runtime.d.ts"],
+      "@deepseek-ai/dsh-client-runtime/client": ["C:/Users/Lenovo/.dsh/profiles/node_modules/@deepseek-ai/dsh-client-runtime/lib/types/client/index.d.ts"],
+      "@deepseek-ai/dsh-client-ui-settings/client": ["C:/Users/Lenovo/.dsh/profiles/node_modules/@deepseek-ai/dsh-client-ui-settings/lib/types/client/index.d.ts"],
+      "@deepseek-ai/dsh-client-ui-primitives": ["C:/Users/Lenovo/.dsh/profiles/node_modules/@deepseek-ai/dsh-client-ui-primitives/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-client-ui-slots": ["C:/Users/Lenovo/.dsh/profiles/node_modules/@deepseek-ai/dsh-client-ui-slots/lib/types/index.d.ts"],
+      "@deepseek-ai/*": ["C:/Users/Lenovo/.dsh/profiles/node_modules/@deepseek-ai/*"]
+    }
+  },
+  "include": ["src"]
+}

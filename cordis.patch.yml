@@ -1,0 +1,11 @@
+# dsh-workspace-menu bundle patch
+#
+# Installed through the official CLI:
+#
+#   dsh plugin --profile <name> add dsh-external-dsh-workspace-menu
+#
+# This patch inserts the plugin row into the profile.
+- insert:
+    - id: dsh-workspace-menu
+      name: '@dsh-external/dsh-workspace-menu'
+      config: {}
