@@ -11,7 +11,7 @@ clamping are the same code the built-in row menu uses.
 
 Chinese documentation: [README.zh.md](README.zh.md).
 
-![Pinned session row](https://raw.githubusercontent.com/ZeroCode321/dsh-collection/main/assets/workspace-menu/pinned-session.png)
+![Pinned session row](docs/screenshots/pinned-session.png)
 
 The pinned row carries the brand whale as its marker — blue, animated, sitting
 directly left of its title.
